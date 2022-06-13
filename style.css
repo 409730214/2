@@ -1,0 +1,107 @@
+*{
+  /*border: solid 2px*/
+} 
+html,body{
+  background-color:#dec9e9;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.triangle-topright{ 
+  width : 0 ; 
+  height : 0 ; 
+  border-top : 100px solid #fff; 
+  border-left : 100px solid transparent ; 
+  position: absolute;
+  right:0px;
+  bottom:60%;
+}
+.tag{
+  width:10px;
+  height:10px;
+  background-color:gray;
+  position: absolute;
+  right:337px;
+  bottom:-26%;
+}
+.triangle-up  { 
+    width : 0 ; 
+    height : 0 ; 
+    border-left : 50px solid transparent ; 
+    border-right : 50px solid transparent ; 
+    border-bottom : 50px solid #fff ; 
+    position: absolute;
+    right:20px;
+    bottom:0%;
+}
+.box{
+  width:380px;
+  background-color:#fff;
+  box-sizing: border-box;
+  box-shadow:0px 0px 35px rgba(0,0,0,0.3);
+  transition:0.5s;
+}
+.box:hover{
+  box-shadow:5 px 5px 60px rgba(0,0,0,0.4);
+  transform:translate(-5px,-5px);
+}
+.top{
+  position:relative;
+  height:250px;
+  background-image:url(https://i.imgur.com/zHVOORN.jpg);
+  background-size: cover;
+  position:relative;
+  background-position-y:15%;
+}
+.name{
+  font-size:38px;
+}
+.top .noword{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  margin:0;
+  background:linear-gradient(transparent 0%, black 100%);
+  width:100%;
+  padding:15px;
+  box-sizing: border-box;
+}
+.inform{
+  padding:10px 10px 20px 10px;
+  letter-spacing: 2px;
+} 
+.inform li{
+  padding:0% 10%;
+  justify-content:center;
+}
+.inform ul{
+  list-style:none;
+  padding-left:0; 
+}
+.button{
+  padding: 0px 34px 0px 34px;
+}
+.button .btn{
+  display:inline-block;
+  border: solid 1px gray;
+  padding:10px 25px;
+  letter-spacing:3px;
+  font-size:25px;
+  background-color:gray;
+  color:#fff;
+}
+.artwork{
+  float:right;
+}
+a{
+  color:initial;
+  text-decoration:initial;
+}
+.artwork:hover{
+  background-color:#8E74CD;
+}
+.email:hover{
+  background-color:#8E74CD;
+}
